@@ -21,6 +21,7 @@ export default function Hero() {
         
         <h1 className="text-7xl md:text-[10rem] font-bold tracking-tighter text-white mb-8 leading-[0.85]">
           Zeyuki
+          <span className="sr-only"> - AI Systems and Practical Engineering Solutions by Satya</span>
         </h1>
         
         <motion.div
@@ -42,6 +43,7 @@ export default function Hero() {
             target="_blank" 
             rel="noopener noreferrer"
             className="group relative flex items-center gap-2 px-10 py-4 bg-white text-black font-bold rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95"
+            aria-label="View Satya's Portfolio"
           >
             <span className="relative z-10">View Portfolio</span>
             <ArrowRight size={18} className="relative z-10 group-hover:translate-x-1 transition-transform" />
@@ -49,6 +51,7 @@ export default function Hero() {
           <a 
             href="#projects"
             className="px-10 py-4 bg-transparent text-white font-bold rounded-full border border-white/20 hover:bg-white/5 transition-all active:scale-95"
+            aria-label="Explore Projects"
           >
             Explore Projects
           </a>

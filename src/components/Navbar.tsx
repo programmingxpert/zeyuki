@@ -9,16 +9,16 @@ export default function Navbar() {
       </div>
       
       <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/60">
-        <a href="https://portfolio.zeyuki.app" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Portfolio</a>
-        <a href="#projects" className="hover:text-white transition-colors">Projects</a>
-        <a href="#ecosystem" className="hover:text-white transition-colors">Ecosystem</a>
+        <a href="https://portfolio.zeyuki.app" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Visit Satya's Portfolio">Portfolio</a>
+        <a href="#projects" className="hover:text-white transition-colors" aria-label="View Projects section">Projects</a>
+        <a href="#ecosystem" className="hover:text-white transition-colors" aria-label="Explore Ecosystem section">Ecosystem</a>
       </div>
 
       <div className="flex items-center gap-4">
-        <a href="https://github.com/programmingxpert" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+        <a href="https://github.com/programmingxpert" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors" aria-label="GitHub Profile">
           <Github size={20} />
         </a>
-        <a href="https://www.linkedin.com/in/satyasundarbehera/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+        <a href="https://www.linkedin.com/in/satyasundarbehera/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors" aria-label="LinkedIn Profile">
           <Linkedin size={20} />
         </a>
       </div>

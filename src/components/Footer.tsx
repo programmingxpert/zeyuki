@@ -10,13 +10,13 @@ export default function Footer() {
         </div>
         
         <div className="flex items-center gap-8">
-          <a href="https://github.com/programmingxpert" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
+          <a href="https://github.com/programmingxpert" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors" aria-label="Zeyuki GitHub">
             <Github size={18} />
           </a>
-          <a href="https://www.linkedin.com/in/satyasundarbehera/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/satyasundarbehera/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors" aria-label="Satya LinkedIn">
             <Linkedin size={18} />
           </a>
-          <a href="https://x.com/programmingxper" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
+          <a href="https://x.com/programmingxper" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors" aria-label="Zeyuki Twitter">
             <Twitter size={18} />
           </a>
         </div>
