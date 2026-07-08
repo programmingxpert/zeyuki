@@ -22,7 +22,7 @@ const projects = [
     name: "Nishanka",
     tagline: "High-Traffic Discord Bot Ecosystem",
     description: "A community bot with a dynamic economy system (Baubles) driven by live inflation metrics and progressive wealth tax, multiplayer casino minigames, an Express dashboard, and Lavalink audio streaming.",
-    link: "https://github.com/programmingxpert/nishanka",
+    link: "https://nishanka.zeyuki.app",
     type: "Real-Time Platform",
     tech: ["Node.js", "Discord.js", "Mongoose", "Lavalink"]
   },
