@@ -21,6 +21,11 @@ const subsites = [
     subdomain: "byte2bite.zeyuki.app",
     description: "An AI-powered recipe assistant and smart refrigerator image scanning interface.",
     type: "AI & Cooking"
+  },
+  {
+    subdomain: "nishanka.zeyuki.app",
+    description: "The official web dashboard and analytics hub for the Nishanka Discord bot ecosystem.",
+    type: "Discord Bot"
   }
 ];
 
