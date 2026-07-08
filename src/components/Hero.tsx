@@ -58,16 +58,33 @@ export default function Hero() {
         </div>
       </motion.div>
 
-      
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+      {/* Elegant, interactive scroll indicator */}
+      <motion.button 
+        onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.2, duration: 0.8 }}
+        className="absolute bottom-8 lg:bottom-12 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-3 cursor-pointer group bg-transparent border-0 outline-none"
+        aria-label="Scroll to projects"
       >
-        <span className="text-[10px] uppercase tracking-[0.2em] text-white/20">Scroll to explore</span>
-        <div className="w-px h-12 bg-gradient-to-b from-white/20 to-transparent" />
-      </motion.div>
+        <span className="text-[9px] font-mono uppercase tracking-[0.25em] text-white/20 group-hover:text-white/60 transition-colors duration-300">
+          Scroll to explore
+        </span>
+        <div className="w-5 h-8 rounded-full border border-white/10 group-hover:border-white/30 flex justify-center p-1.5 transition-colors duration-300">
+          <motion.div 
+            animate={{ 
+              y: [0, 8, 0],
+              opacity: [1, 0.4, 1]
+            }}
+            transition={{ 
+              duration: 1.8, 
+              repeat: Infinity, 
+              ease: "easeInOut" 
+            }}
+            className="w-1 h-1.5 bg-white/30 group-hover:bg-white/70 rounded-full"
+          />
+        </div>
+      </motion.button>
     </section>
   );
 }

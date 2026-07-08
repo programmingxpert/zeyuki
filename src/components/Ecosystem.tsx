@@ -4,18 +4,23 @@ import { Globe } from "lucide-react";
 const subsites = [
   {
     subdomain: "portfolio.zeyuki.app",
-    description: "Full portfolio and detailed work showcasing technical skills and past projects.",
+    description: "Comprehensive portfolio showcasing detailed development works, systems, and labs.",
     type: "Personal"
   },
   {
     subdomain: "dontjustwatch.zeyuki.app",
-    description: "A platform focused on awareness and real-world impact through digital storytelling.",
+    description: "A digital storytelling platform focused on raising awareness and driving real-world impact.",
     type: "Platform"
   },
   {
     subdomain: "ecolens.zeyuki.app",
-    description: "A platform focused on environmental impact and sustainability.",
+    description: "A sustainability calculator visualizing environmental product impact using LCA concepts.",
     type: "Environment"
+  },
+  {
+    subdomain: "byte2bite.zeyuki.app",
+    description: "An AI-powered recipe assistant and smart refrigerator image scanning interface.",
+    type: "AI & Cooking"
   }
 ];
 
