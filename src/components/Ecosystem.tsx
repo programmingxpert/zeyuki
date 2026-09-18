@@ -3,6 +3,11 @@ import { Globe } from "lucide-react";
 
 const subsites = [
   {
+    subdomain: "sidespin.zeyuki.app",
+    description: "Pick up a paddle. Play table tennis against a bot or a friend, right in your browser.",
+    type: "Game"
+  },
+  {
     subdomain: "portfolio.zeyuki.app",
     description: "Comprehensive portfolio showcasing detailed development works, systems, and labs.",
     type: "Personal"

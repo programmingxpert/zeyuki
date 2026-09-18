@@ -3,6 +3,14 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    name: "Sidespin",
+    tagline: "A Little Spin. A Good Time.",
+    description: "A browser table tennis game with a simple 3D court, responsive physics, and private 1v1 rooms. Challenge a bot or invite a friend, ready up together, and play on desktop or mobile. No sign-ups needed.",
+    link: "https://sidespin.zeyuki.app",
+    type: "Multiplayer Browser Game",
+    tech: ["React", "Three.js", "WebSockets", "Cloudflare"]
+  },
+  {
     name: "AgenticBank AI",
     tagline: "Autonomous Multi-Agent Banking Orchestrator",
     description: "An enterprise-grade banking command center showcasing a cyclic supervisor agent swarm. It orchestrates user transfers, stock trading, and compliance auditing using Oracle 26ai native vectors and human-in-the-loop approvals.",
