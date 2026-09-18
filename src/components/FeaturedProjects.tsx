@@ -4,8 +4,8 @@ import { ExternalLink } from "lucide-react";
 const projects = [
   {
     name: "Sidespin",
-    tagline: "A Little Spin. A Good Time.",
-    description: "A browser table tennis game with a simple 3D court, responsive physics, and private 1v1 rooms. Challenge a bot or invite a friend, ready up together, and play on desktop or mobile. No sign-ups needed.",
+    tagline: "Online Table Tennis",
+    description: "A browser table tennis game with a simple 3D court, responsive physics, and private 1v1 rooms. Play against a bot or a friend on desktop or mobile.",
     link: "https://sidespin.zeyuki.app",
     type: "Multiplayer Browser Game",
     tech: ["React", "Three.js", "WebSockets", "Cloudflare"]

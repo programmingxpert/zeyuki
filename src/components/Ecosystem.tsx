@@ -4,7 +4,7 @@ import { Globe } from "lucide-react";
 const subsites = [
   {
     subdomain: "sidespin.zeyuki.app",
-    description: "Pick up a paddle. Play table tennis against a bot or a friend, right in your browser.",
+    description: "Browser table tennis with solo practice and private online 1v1 matches.",
     type: "Game"
   },
   {
