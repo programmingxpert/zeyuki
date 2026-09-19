@@ -15,6 +15,7 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center gap-4">
+        <a href="/cv.html" className="text-sm font-medium text-white/60 hover:text-white transition-colors" aria-label="View and download Satya's CV">CV</a>
         <a href="https://github.com/programmingxpert" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors" aria-label="GitHub Profile">
           <Github size={20} />
         </a>

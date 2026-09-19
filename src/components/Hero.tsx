@@ -37,7 +37,7 @@ export default function Hero() {
           </p>
         </motion.div>
         
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4">
           <a 
             href="https://portfolio.zeyuki.app" 
             target="_blank" 
@@ -47,6 +47,12 @@ export default function Hero() {
           >
             <span className="relative z-10">View Portfolio</span>
             <ArrowRight size={18} className="relative z-10 group-hover:translate-x-1 transition-transform" />
+          </a>
+          <a
+            href="/cv.html"
+            className="px-10 py-4 bg-transparent text-white font-bold rounded-full border border-white/20 hover:bg-white/5 transition-all active:scale-95"
+          >
+            View CV
           </a>
           <a 
             href="#projects"
